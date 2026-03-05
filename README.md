@@ -477,7 +477,7 @@ The visual should mainly be used during evaluation as it can slow down training 
 
 # Physical Robot
 
-The models trained using this framework were validated on a low-cost physical system. Video demonstrations can be found on my [YouTube channel](https://www.youtube.com/@tomasvr1/videos).
+The models trained using this framework were validated on a low-cost physical system. 
 
 ![Physical Robot](media/physical_robot.png?raw=true)
 
@@ -542,3 +542,4 @@ Also, make sure that you source the correct setup files in your `~/.bashrc` as d
 ## **Package 'turtlebot3_gazebo' not found: "package 'turtlebot3_gazebo' not found, searching: ['/opt/ros/foxy']"**
 
 Make sure to run `source install/setup.bash` from the root of the repository in every terminal every time after you build the project using `colcon_build`. Otherwise, the nodes will not run the updated version of your code but the old version from the last time you built and sourced.
+
